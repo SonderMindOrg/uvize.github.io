@@ -4,6 +4,7 @@ title: Uvize Docs
 ---
 
 ### Docs
+
  * [Terms of Service](terms.html)
  * [Privacy Policy](privacy.html)
  
