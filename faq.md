@@ -232,6 +232,16 @@ We currently have a 4MB limit for cover image upload sizes.
 
 ### <a name="email-preferences"></a>Editing your email preferences
 
+There are currently five settings for email notifications which you can enable or disable.
+
+* When someone sends a message.
+* When someone posts an answer to a question I posted.
+* When someone posts on my wall.
+* When someone posts on the wall of a group I am in.
+* When someone comments on one of my posts.
+
+Additionally, you can turn off emails (and notifications) from individual groups.
+
 At any time, you can edit your profile by clicking your name > profile
 
 <a href="gfx/uvize-go-to-profile.png">
@@ -250,14 +260,6 @@ Next, click the 'email settings' tab.
   <img src="gfx/uvize-profile-email.png" alt="profile email" style="width:500px;">
 </a>
 
-There are currently five settings for email notifications which you can enable or disable.
-
-* When someone sends a message.
-* When someone posts an answer to a question I posted.
-* When someone posts on my wall.
-* When someone posts on the wall of a group I am in.
-* When someone comments on one of my posts.
-
 You can also unsubscribe from emails via the 'email settings' link within an email
 
 <a href="gfx/uvize-email-settings.png">
@@ -268,6 +270,12 @@ From here, you'll see the same five settings for your account which you can enab
 
 <a href="gfx/uvize-subscriptions.png">
   <img src="gfx/uvize-subscriptions.png" alt="email subscriptions" style="width:500px;">
+</a>
+
+To turn off emails (and notifications) from individual groups, go to the group's page and click the "Notifications on" button so that it says "Notifications off"
+
+<a href="gfx/uvize-group-notifications.png">
+  <img src="gfx/uvize-group-notifications.png" alt="group-notifications" style="width:150px;">
 </a>
 
 [back to My Account](#account) | [back to top](#top)
@@ -365,11 +373,147 @@ Mentorship is fundamental in the success of students. When engaging with a mento
 
 ## <a name="groups"></a>Groups
 
-* Creating a group
-* Editing a group
-* Tagging a group
+* [Creating a group](#creating-group)
+* [Administering a group](#admin-group)
+* [Group privacy](#group-privacy)
+* [Joining a group](#joining-group)
+* [Leaving a group](#leaving-group)
+* [Searching groups](#searching-groups)
+
+Groups are a place to where students, mentors, and staff can meet and discuss common interests. Groups are commonly used for things such as common backgrounds (Army, MOS, etc), study groups (Bio 101 study group), majors (Mechanical Engineering majors), interests (Anime, TV shows), and more (Carpooling, etc).
 
 [back to top](#top)
+
+***
+
+### <a name="creating-group"></a>Creating a group
+
+Creating a group is easy. From the [groups page](https://www.uvize.com/community/groups), click the "Get Started" button
+
+<a href="gfx/uvize-get-started.png">
+  <img src="gfx/uvize-get-started.png" alt="get started button" style="width:200px;">
+</a>
+
+From here, you must supply a group name. Optionally, you can add a description and tags for the group. The description and tags help others find your group when searching for groups.
+
+<a href="gfx/uvize-create-group.png">
+  <img src="gfx/uvize-create-group.png" alt="create group form" style="width:500px;">
+</a>
+
+Finally, you must choose the privacy level of your group. See [Group Privacy](#group-privacy) to learn more about privacy.
+
+[back to Groups](#groups) | [back to top](#top)
+
+***
+
+### <a name="admin-group"></a>Administering a group
+
+As a group administrator, you can edit your group settings at any time.
+
+From the group's page, click the "group settings" link.
+
+<a href="gfx/uvize-group-settings.png">
+  <img src="gfx/uvize-group-settings.png" alt="group settings" style="width:200px;">
+</a>
+
+This will bring up the group settings form used to create the group, which you can now edit.
+
+<a href="gfx/uvize-create-group.png">
+  <img src="gfx/uvize-create-group.png" alt="group form" style="width:500px;">
+</a>
+
+From here, you can view members, admins, pending requests, blocked, and add classmates.
+
+<a href="gfx/uvize-group-members.png">
+  <img src="gfx/uvize-group-members.png" alt="group members" style="width:500px;">
+</a>
+
+On the members/admins tabs, you can see current members or admins and you have the ability to remove them, add them as an admin, or block them. To remove as a member, just uncheck them. To add them as an admin or block them, hover over their profile, then click options, and the corresponding checkbox.
+
+<a href="gfx/uvize-group-admin-options.png">
+  <img src="gfx/uvize-group-admin-options.png" alt="group admin options" style="width:500px;">
+</a>
+
+For closed groups, when a user requests to join, they will show up on the pending requests tab.
+
+For users that have been blocked, they will show up on the blocked tab.
+
+Finally, the add classmates tab will show all of your school classmates, where you can add others to your group.
+
+[back to Groups](#groups) | [back to top](#top)
+
+***
+
+### <a name="group-privacy"></a>Group Privacy
+
+There are two levels of privacy for groups within Uvize: Open or Closed.
+
+* Open - The group message board and members are public, and anyone from your school can join the group.
+* Closed - The group message board and members can only be seen by members. The group will still show up in search and new members can request an invite to join the group.
+
+When you're on a closed group that you're not a member of, you can request to join by clicking the "request to join" button.
+
+<a href="gfx/uvize-closed-group.png">
+  <img src="gfx/uvize-closed-group.png" alt="closed group" style="width:500px;">
+</a>
+
+Additionally, groups from your school are _never_ viewable by a user at another school.
+
+[back to Groups](#groups) | [back to top](#top)
+
+***
+
+### <a name="joining-group"></a>Joining a group
+
+You can join an open group at any time. Simply click the "Join" button on the group's page.
+
+<a href="gfx/uvize-join-group.png">
+  <img src="gfx/uvize-join-group.png" alt="join group" style="width:100px;">
+</a>
+
+When you're on a closed group that you're not a member of, you can request to join by clicking the "request to join" button.
+
+<a href="gfx/uvize-closed-group.png">
+  <img src="gfx/uvize-closed-group.png" alt="closed group" style="width:500px;">
+</a>
+
+[back to Groups](#groups) | [back to top](#top)
+
+***
+
+### <a name="leaving-group"></a>Leaving a group
+
+When you leave a group, you have the ability to not allow others to add you back to the group. This prevents others from continually adding you to a group over and over again.
+
+<a href="gfx/uvize-group-leave.png">
+  <img src="gfx/uvize-group-leave.png" alt="leave group" style="width:500px;">
+</a>
+
+If you're an admin for a group and you leave, you'll be warned if you're the last admin and that you should make someone else an admin before you leave, otherwise anyway can claim the admin position.
+
+<a href="gfx/uvize-group-leave-admin.png">
+  <img src="gfx/uvize-group-leave-admin.png" alt="group admin leave" style="width:500px;">
+</a>
+
+[back to Groups](#groups) | [back to top](#top)
+
+***
+
+### <a name="searching-groups"></a>Searching groups
+
+From the [groups page](https://www.uvize.com/community/groups), you can search groups.
+
+<a href="gfx/uvize-groups-page.png">
+  <img src="gfx/uvize-groups-page.png" alt="groups page" style="width:500px;">
+</a>
+
+Just input different search criteria and we'll search groups by group name, tags, and description.
+
+<a href="gfx/uvize-groups-search.png">
+  <img src="gfx/uvize-groups-search.png" alt="groups search" style="width:500px;">
+</a>
+
+[back to Groups](#groups) | [back to top](#top)
 
 ***
 
