@@ -9,7 +9,6 @@ title: Help - Frequently Asked Questions | Uvize
 * [Mentors](#mentors)
 * [Groups](#groups)
 * [Questions](#Questions)
-* [Mobile (iOS and Android)](#mobile)
 
 ***
 
