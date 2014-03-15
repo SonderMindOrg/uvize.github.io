@@ -8,7 +8,7 @@ title: Help - Frequently Asked Questions | Uvize
 * [My Account](#account)
 * [Mentors](#mentors)
 * [Groups](#groups)
-* [Questions](#Questions)
+* [Questions](#questions)
 
 ***
 
@@ -387,7 +387,7 @@ Groups are a place to where students, mentors, and staff can meet and discuss co
 
 ### <a name="creating-group"></a>Creating a group
 
-Creating a group is easy. From the [groups page](https://www.uvize.com/community/groups), click the "Get Started" button
+Creating a group is easy. From the [groups page](https://www.uvize.com/community/groups), click the "Get Started" button.
 
 <a href="gfx/uvize-get-started.png">
   <img src="gfx/uvize-get-started.png" alt="get started button" style="width:200px;">
@@ -516,10 +516,127 @@ Just input different search criteria and we'll search groups by group name, tags
 
 ***
 
-## Questions<a name="questions"></a>
+## <a name="questions"></a>Questions
 
-* Creating a question
-* Editing a question
-* Tagging a question
+* [Asking a question](#asking-question)
+* [Editing a question](#editing-question)
+* [Deleting a question](#deleting-question)
+* [Upvoting/Downvoting](#voting)
+* [Searching questions](#searching-questions)
+* [Answering a question](#answering-question)
 
 [back to top](#top)
+
+***
+
+### <a name="asking-question"></a>Asking a question
+
+From the [questions page](https://www.uvize.com/community/questions), click the "Ask a Question" button.
+
+<a href="gfx/uvize-ask-question.png">
+  <img src="gfx/uvize-ask-question.png" alt="ask a question" style="width:150px;">
+</a>
+
+From here, you must supply a question. Optionally, you can add tags and details about the question. The tags and details help find your question when searching questions.
+
+<a href="gfx/uvize-question-form.png">
+  <img src="gfx/uvize-question-form.png" alt="question form" style="width:500px;">
+</a>
+
+[back to Questions](#questions) | [back to top](#top)
+
+***
+
+### <a name="editing-question"></a>Editing a question
+
+If you asked a question, you can edit it to further refine details or updates about the question.
+
+From the question's page, hover over your question and click "edit".
+
+<a href="gfx/uvize-edit.png">
+  <img src="gfx/uvize-edit.png" alt="edit question" style="width:100px;">
+</a>
+
+[back to Questions](#questions) | [back to top](#top)
+
+***
+
+### <a name="deleting-question"></a>Deleting a question
+
+If you asked a question, you can delete it if you want to remove it.
+
+WARNING: if you remove a question, it will no longer be searchable. If others' have answered you question, you should leave it up so that others can benefit from finding your question and answers if they have the same question.
+
+From the question's page, hover over your question and click on the trash icon.
+
+<a href="gfx/uvize-trash.png">
+  <img src="gfx/uvize-trash.png" alt="delete question" style="width:100px;">
+</a>
+
+This will bring up a confirmation before deletion. Click "Delete" if you'd like to delete the question.
+
+<a href="gfx/uvize-delete-confirm.png">
+  <img src="gfx/uvize-delete-confirm.png" alt="delete question" style="width:500px;">
+</a>
+
+[back to Questions](#questions) | [back to top](#top)
+
+***
+
+### <a name="voting"></a>Upvoting/Downvoting
+
+Voting helps the most useful content, whether it's a question or an answer, be found easier by other users.
+
+From the [questions page](https://www.uvize.com/community/questions), you can upvote and downvote questions. Just click the up or down arrow to the right of the question.
+
+<a href="gfx/uvize-questions-voting.png">
+  <img src="gfx/uvize-questions-voting.png" alt="questions page voting" style="width:500px;">
+</a>
+
+From a question's page, you can upvote and downvote the question as well as the answers to the question. Just click the up or down arrow to the right of the question, or click the word 'upvote' to upvote.
+
+<a href="gfx/uvize-answer.png">
+  <img src="gfx/uvize-answer.png" alt="question page voting" style="width:500px;">
+</a>
+
+You should only downvote questions and answers that are not constructive, helpful, or just plain wrong.
+
+[back to Questions](#questions) | [back to top](#top)
+
+***
+
+### <a name="searching-questions"></a>Searching questions
+
+From the [questions page](https://www.uvize.com/community/questions), you can search questions.
+
+<a href="gfx/uvize-questions-page.png">
+  <img src="gfx/uvize-questions-page.png" alt="questions page" style="width:500px;">
+</a>
+
+Just input different search criteria and we'll search groups by group name, tags, and description.
+
+<a href="gfx/uvize-questions-search.png">
+  <img src="gfx/uvize-questions-search.png" alt="questions search" style="width:500px;">
+</a>
+
+You can further sort the questions by new questions.
+
+<a href="gfx/uvize-questions-sort.png">
+  <img src="gfx/uvize-questions-sort.png" alt="questions sort" style="width:200px;">
+</a>
+
+[back to Questions](#questions) | [back to top](#top)
+
+***
+
+### <a name="answering-question"></a>Answering a question
+
+From a question's page, you can answer it by filling out the form below the question.
+
+<a href="gfx/uvize-answer-form.png">
+  <img src="gfx/uvize-answer-form.png" alt="answer form" style="width:500px;">
+</a>
+
+Answering questions is how we, as a community, can give back to one another.
+
+[back to Questions](#questions) | [back to top](#top)
