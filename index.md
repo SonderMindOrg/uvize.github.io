@@ -5,7 +5,7 @@ title: Uvize Docs
 
 ### Help
 
- * [Frequently Asked Questions](faq.html)
+ * [Community Guide](community-guide.html)
 
 ### Docs
 

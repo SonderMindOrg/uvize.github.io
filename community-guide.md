@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Help - Frequently Asked Questions | Uvize
+title: Help - Community Guide | Uvize
 ---
 
-# <a name="top"></top>Frequently Asked Questions
+# <a name="top"></top>Community Guide
 
 * [My Account](#account)
 * [Mentors](#mentors)
