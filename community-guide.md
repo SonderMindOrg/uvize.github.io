@@ -534,13 +534,17 @@ Events allow the members of groups to plan places and times to meet in person. G
 
 You can find all the upcoming events for a group at the top of the group's page:
 
-<img src="gfx/uvize-events-listing.png" alt="Events Listing" style="width: 500px">
+<a href="gfx/uvize-events-listing.png">
+  <img src="gfx/uvize-events-listing.png" alt="Events Listing" style="width: 500px">
+</a>
 
 <span>If you were invited to an event, you can quickly RSVP by clicking</span>
 <img src="gfx/uvize-events-listing-invited.png" alt="Invited" style="width: 70px; vertical-align: middle">
 <span>and choosing an option from the pop-up:
 
+<a href="gfx/uvize-events-listing-popup.png">
 <img src="gfx/uvize-events-listing-popup.png" alt="Invited" style="width: 200px">
+</a>
 
 [back to Events](#events) | [back to top](#top)
 
@@ -552,13 +556,17 @@ You can find all the upcoming events for a group at the top of the group's page:
 <img src="gfx/uvize-events-listing-event-page.png" alt="Event Page Link" style="width: 70px; vertical-align: middle">
 <span>to view an event's page:
 
-<img src="gfx/uvize-event-page.png" alt="Event Page" style="width: 650px">
+<a href="gfx/uvize-event-page.png">
+  <img src="gfx/uvize-event-page.png" alt="Event Page" style="width: 650px">
+</a>
 
 <span>Click</span>
 <img src="gfx/uvize-event-page-attend.png" alt="Attend" style="width: 70px; vertical-align: middle">
 <span>if you plan to attend the event, or use the dropdown if you can't make it:
 
-<img src="gfx/uvize-event-page-dropdown.png" alt="Event Page Dropdown" style="width: 200px">
+<a href="gfx/uvize-event-page-dropdown.png">
+  <img src="gfx/uvize-event-page-dropdown.png" alt="Event Page Dropdown" style="width: 200px">
+</a>
 
 <span>If the event organizer has enabled it, click</span>
 <img src="gfx/uvize-event-page-google-maps.png" alt="Google Maps" style="width: 70px; vertical-align: middle">
@@ -572,7 +580,9 @@ You can find all the upcoming events for a group at the top of the group's page:
 <img src="gfx/uvize-event-page-attending.png" alt="Attendin" style="width: 70px; vertical-align: middle">
 <span>to bring up the event attendance interface:
 
-<img src="gfx/uvize-event-page-attendees.png" alt="Event Page Attendees" style="width: 500px">
+<a href="gfx/uvize-event-page-attendees.png">
+  <img src="gfx/uvize-event-page-attendees.png" alt="Event Page Attendees" style="width: 500px">
+</a>
 
 [back to Events](#events) | [back to top](#top)
 
@@ -586,7 +596,9 @@ Events are created from a group's page by an administrator of that group.
 <img src="gfx/uvize-create-event.png" alt="Create Event Link" style="width: 100px; vertical-align: middle">
 <span>link in the sidebar to bring up the event creation form:</span>
 
-<img src="gfx/uvize-create-event-form.png" alt="Create Event Form" style="width: 500px">
+<a href="gfx/uvize-create-event-form.png">
+  <img src="gfx/uvize-create-event-form.png" alt="Create Event Form" style="width: 500px">
+</a>
 
 <span>You must enter a title, location, and start time. After you enter a location, you can click</span> 
 <img src="gfx/uvize-event-test-link.png" alt="Test Map Link" style="width: 70px; vertical-align: middle">
@@ -598,7 +610,9 @@ Events are created from a group's page by an administrator of that group.
 <img src="gfx/uvize-event-next-link.png" alt="Next" style="width: 70px; vertical-align: middle">
 <span>to invite group members to the event:</span>
 
-<img src="gfx/uvize-event-invite.png" alt="Invite People" style="width: 500px">
+<a href="gfx/uvize-event-invite.png">
+  <img src="gfx/uvize-event-invite.png" alt="Invite People" style="width: 500px">
+</a>
 
 <span>All group members will be invited by default. Click</span>
 <img src="gfx/uvize-event-select-none.png" alt="Select None" style="width: 70px; vertical-align: middle">
@@ -616,17 +630,23 @@ Events are created from a group's page by an administrator of that group.
 
 The organizer of an event can change its settings and its invites. From the page for an event you organized, open the dropdown:
 
-<img src="gfx/uvize-event-page-organizer-dropdown.png" alt="Event Page Organizer Dropdown" style="width: 200px">
+<a href="gfx/uvize-event-page-organizer-dropdown.png">
+  <img src="gfx/uvize-event-page-organizer-dropdown.png" alt="Event Page Organizer Dropdown" style="width: 200px">
+</a>
 
 Click "Edit Event" to bring up the event's settings:
 
-<img src="gfx/uvize-event-page-edit.png" alt="Event Page Edit" style="width: 500px">
+<a href="gfx/uvize-event-page-edit.png">
+  <img src="gfx/uvize-event-page-edit.png" alt="Event Page Edit" style="width: 500px">
+</a>
 
 See the guide for [creating an event](#creating-event) for more information on changing event settings.
 
 Click "Edit Invites" to invite or uninvite group members:
 
-<img src="gfx/uvize-event-invite.png" alt="Invite People" style="width: 500px">
+<a href="gfx/uvize-event-invite.png">
+  <img src="gfx/uvize-event-invite.png" alt="Invite People" style="width: 500px">
+</a>
 
 See the guide for [creating an event](#creating-event) for more information on event invitations.
 
