@@ -522,6 +522,7 @@ Just input different search criteria and we'll search groups by group name, tags
 * [Finding events](#finding-events)
 * [Viewing an event](#viewing-event)
 * [Creating an event](#creating-event)
+* [Managing an event](#managing-event)
 
 Events allow the members of groups to plan places and times to meet in person. Group administrators can create events for anything, whether it be a study session for a study group or a casual social gathering for Army veterans on campus or a planning meeting for the carpool schedule or anything else with a place and a time.
 
@@ -606,6 +607,28 @@ Events are created from a group's page by an administrator of that group.
 <span>to add them back again. When you're happy with your list of invitations, click</span>
 <img src="gfx/uvize-event-invite-done.png" alt="Done" style="width: 70px; vertical-align: middle">
 <span>to send them.
+
+[back to Events](#events) | [back to top](#top)
+
+***
+
+### <a name="managing-event"></a>Managing an event
+
+The organizer of an event can change its settings and its invites. From the page for an event you organized, open the dropdown:
+
+<img src="gfx/uvize-event-page-organizer-dropdown.png" alt="Event Page Organizer Dropdown" style="width: 200px">
+
+Click "Edit Event" to bring up the event's settings:
+
+<img src="gfx/uvize-event-page-edit.png" alt="Event Page Edit" style="width: 500px">
+
+See the guide for [creating an event](#creating-event) for more information on changing event settings.
+
+Click "Edit Invites" to invite or uninvite group members:
+
+<img src="gfx/uvize-event-invite.png" alt="Invite People" style="width: 500px">
+
+See the guide for [creating an event](#creating-event) for more information on event invitations.
 
 [back to Events](#events) | [back to top](#top)
 
