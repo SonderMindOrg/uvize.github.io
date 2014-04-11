@@ -409,13 +409,13 @@ Finally, you must choose the privacy level of your group. See [Group Privacy](#g
 
 As a group administrator, you can edit your group settings at any time.
 
-From the group's page, click the "group settings" link.
+From the group's page, open the settings dropdown:
 
-<a href="gfx/uvize-group-settings.png">
-  <img src="gfx/uvize-group-settings.png" alt="group settings" style="width:200px;">
+<a href="gfx/uvize-group-dropdown.png">
+  <img src="gfx/uvize-group-dropdown.png" alt="group dropdown" style="width:200px;">
 </a>
 
-This will bring up the group settings form used to create the group, which you can now edit.
+Click "Edit Group" to bring up the group settings form used to create the group, which you can now edit.
 
 <a href="gfx/uvize-create-group.png">
   <img src="gfx/uvize-create-group.png" alt="group form" style="width:500px;">
