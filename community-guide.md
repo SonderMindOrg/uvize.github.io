@@ -519,14 +519,52 @@ Just input different search criteria and we'll search groups by group name, tags
 
 ## <a name="events"></a>Events
 
+* [Creating an event](#creating-event)
 * [Finding events](#finding-events)
 * [Viewing an event](#viewing-event)
-* [Creating an event](#creating-event)
 * [Managing an event](#managing-event)
 
 Events allow the members of groups to plan places and times to meet in person. Group administrators can create events for anything, whether it be a study session for a study group or a casual social gathering for Army veterans on campus or a planning meeting for the carpool schedule or anything else with a place and a time.
 
 [back to top](#top)
+
+***
+
+### <a name="creating-event"></a>Creating an event
+
+Events are created from a group's page by an administrator of that group.
+
+<span>From a group's page, click the</span>
+<img src="gfx/uvize-create-event.png" alt="Create Event Link" style="width: 100px; vertical-align: middle">
+<span>link in the sidebar to bring up the event creation form:</span>
+
+<a href="gfx/uvize-create-event-form.png">
+  <img src="gfx/uvize-create-event-form.png" alt="Create Event Form" style="width: 500px">
+</a>
+
+<span>You must enter a title, location, and start time. After you enter a location, you can click</span> 
+<img src="gfx/uvize-event-test-link.png" alt="Test Map Link" style="width: 70px; vertical-align: middle">
+<span>to make sure your location works with Google maps. If your event has an end time, click</span>
+<img src="gfx/uvize-event-end-time-link.png" alt="Test Map Link" style="width: 70px; vertical-align: middle">
+<span> to set it.
+
+<span>When you're satisfied with your settings, click</span>
+<img src="gfx/uvize-event-next-link.png" alt="Next" style="width: 70px; vertical-align: middle">
+<span>to invite group members to the event:</span>
+
+<a href="gfx/uvize-event-invite.png">
+  <img src="gfx/uvize-event-invite.png" alt="Invite People" style="width: 500px">
+</a>
+
+<span>All group members will be invited by default. Click</span>
+<img src="gfx/uvize-event-select-none.png" alt="Select None" style="width: 70px; vertical-align: middle">
+<span>to remove all invitations, and</span>
+<img src="gfx/uvize-event-select-all.png" alt="Select All" style="width: 70px; vertical-align: middle">
+<span>to add them back again. When you're happy with your list of invitations, click</span>
+<img src="gfx/uvize-event-invite-done.png" alt="Done" style="width: 70px; vertical-align: middle">
+<span>to send them.
+
+[back to Events](#events) | [back to top](#top)
 
 ***
 
@@ -583,44 +621,6 @@ You can find all the upcoming events for a group at the top of the group's page:
 <a href="gfx/uvize-event-page-attendees.png">
   <img src="gfx/uvize-event-page-attendees.png" alt="Event Page Attendees" style="width: 500px">
 </a>
-
-[back to Events](#events) | [back to top](#top)
-
-***
-
-### <a name="creating-event"></a>Creating an event
-
-Events are created from a group's page by an administrator of that group.
-
-<span>From the group's page, click the</span>
-<img src="gfx/uvize-create-event.png" alt="Create Event Link" style="width: 100px; vertical-align: middle">
-<span>link in the sidebar to bring up the event creation form:</span>
-
-<a href="gfx/uvize-create-event-form.png">
-  <img src="gfx/uvize-create-event-form.png" alt="Create Event Form" style="width: 500px">
-</a>
-
-<span>You must enter a title, location, and start time. After you enter a location, you can click</span> 
-<img src="gfx/uvize-event-test-link.png" alt="Test Map Link" style="width: 70px; vertical-align: middle">
-<span>to make sure your location works with Google maps. If your event has an end time, click</span>
-<img src="gfx/uvize-event-end-time-link.png" alt="Test Map Link" style="width: 70px; vertical-align: middle">
-<span> to set it.
-
-<span>When you're satisfied with your settings, click</span>
-<img src="gfx/uvize-event-next-link.png" alt="Next" style="width: 70px; vertical-align: middle">
-<span>to invite group members to the event:</span>
-
-<a href="gfx/uvize-event-invite.png">
-  <img src="gfx/uvize-event-invite.png" alt="Invite People" style="width: 500px">
-</a>
-
-<span>All group members will be invited by default. Click</span>
-<img src="gfx/uvize-event-select-none.png" alt="Select None" style="width: 70px; vertical-align: middle">
-<span>to remove all invitations, and</span>
-<img src="gfx/uvize-event-select-all.png" alt="Select All" style="width: 70px; vertical-align: middle">
-<span>to add them back again. When you're happy with your list of invitations, click</span>
-<img src="gfx/uvize-event-invite-done.png" alt="Done" style="width: 70px; vertical-align: middle">
-<span>to send them.
 
 [back to Events](#events) | [back to top](#top)
 
