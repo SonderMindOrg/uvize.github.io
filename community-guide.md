@@ -524,7 +524,7 @@ Just input different search criteria and we'll search groups by group name, tags
 * [Viewing an event](#viewing-event)
 * [Managing an event](#managing-event)
 
-Events allow the members of groups to plan places and times to meet in person. Group administrators can create events for anything, whether it be a study session for a study group or a casual social gathering for Army veterans on campus or a planning meeting for the carpool schedule or anything else with a place and a time.
+Events allow the members of groups to plan places and times to meet in person. Group administrators can create events for anything. Maybe it's a study session for a study group, or a casual social gathering for Army veterans on campus, or a planning meeting for the carpool schedule. All you need is a place and a time!
 
 [back to top](#top)
 
