@@ -3,7 +3,7 @@ layout: default
 title: Help - Community Guide | Uvize
 ---
 
-# <a name="top"></top>Community Guide
+# <a name="top"></a>Community Guide
 
 * [My Account](#account)
 * [Mentors](#mentors)
@@ -542,7 +542,7 @@ Events are created from a group's page by an administrator of that group.
   <img src="gfx/uvize-create-event-form.png" alt="Create Event Form" style="width: 500px">
 </a>
 
-<span>You must enter a title, location, and start time. After you enter a location, you can click</span> 
+<span>You must enter a title, location, and start time. After you enter a location, you can click</span>
 <img src="gfx/uvize-event-test-link.png" alt="Test Map Link" style="width: 70px; vertical-align: middle">
 <span>to make sure your location works with Google maps. If your event has an end time, click</span>
 <img src="gfx/uvize-event-end-time-link.png" alt="Test Map Link" style="width: 70px; vertical-align: middle">
