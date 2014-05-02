@@ -7,6 +7,7 @@ Having technical issues with Uvize.com? Email: <mailto:support@uvize.com>
 
 ### Help
 
+ * [Mobile Guide](mobile-guide.html)
  * [Community Guide](community-guide.html)
 
 ### Docs
