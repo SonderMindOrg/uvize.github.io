@@ -3,6 +3,8 @@ layout: default
 title: Uvize Docs
 ---
 
+Having technical issues with Uvize.com? Email: <mailto:support@uvize.com>
+
 ### Help
 
  * [Community Guide](community-guide.html)
