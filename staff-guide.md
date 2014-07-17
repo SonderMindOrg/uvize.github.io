@@ -90,7 +90,7 @@ You can easily edit any announcements that you make.
     <img src="gfx/uvize-announcements.png" alt="Announcements" style="width:500px;">
   </a>
 
-2. Hover over the appropriate announcement and click the 'edit' link:
+2. Hover over the appropriate announcement and click the down arrow then select the 'edit' link:
 
   <a href="gfx/uvize-announcement-edit-link.png">
     <img src="gfx/uvize-announcement-edit-link.png" alt="Announcement Edit Link" style="width:500px;">
@@ -116,10 +116,10 @@ You can quickly archive an announcement if you no longer want it to be shown to 
     <img src="gfx/uvize-announcements.png" alt="Announcements" style="width:500px;">
   </a>
 
-2. Hover over the appropriate announcement and click the 'archive' link:
+2. Hover over the appropriate announcement and click the down arrow and select the 'archive' link:
 
-  <a href="gfx/uvize-announcement-archive-link.png">
-    <img src="gfx/uvize-announcement-archive-link.png" alt="Announcement Archive Link" style="width:500px;">
+  <a href="gfx/uvize-announcement-edit-link.png">
+    <img src="gfx/uvize-announcement-edit-link.png" alt="Announcement Archive Link" style="width:500px;">
   </a>
 
 That's it! The announcement is now archived.
@@ -138,10 +138,10 @@ Deleting announcements is a permanent action and will immediately remove the ann
     <img src="gfx/uvize-announcements.png" alt="Announcements" style="width:500px;">
   </a>
 
-2. Hover over the appropriate announcement and click the 'trash' link and the announcement will immediately be deleted:
+2. Hover over the appropriate announcement and click the down arrow and select the 'delete' link and the announcement will immediately be deleted:
 
-  <a href="gfx/uvize-announcement-trash-link.png">
-    <img src="gfx/uvize-announcement-trash-link.png" alt="Announcement Trash Link" style="width:500px;">
+  <a href="gfx/uvize-announcement-edit-link.png">
+    <img src="gfx/uvize-announcement-edit-link.png" alt="Announcement Trash Link" style="width:500px;">
   </a>
 
 Removing an announcement will not prevent previously sent emails which went out with the announcement from being viewed, but it will delete the corresponding notifications.
