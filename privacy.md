@@ -7,7 +7,7 @@ title: Privacy Policy | Uvize
 
 We at Uvize Inc. understand that privacy is important to our online visitors and registered users. This Privacy Policy explains how we collect and use your information on our website and through our Service and the choices you may make regarding your information.
 
-This policy applies to our websites [https://www.uvize.com](https://www.uvize.com) and [https://www.getuvize.com](https://www.getuvize.com) ("The Service" in this document) as well as to all products and services that we offer.
+This policy applies to our websites [https://www.uvize.com](https://www.uvize.com) and [http://www.getuvize.com](http://www.getuvize.com) ("The Service" in this document) as well as to all products and services that we offer.
 
 **We strive to be transparent in our data collection and use practices. This is the type of personal information we may collect about you.**
 
