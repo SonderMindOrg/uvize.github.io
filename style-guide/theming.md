@@ -1,6 +1,6 @@
 ---
 layout: style-guide
-title: Brand Elements | Uvize Style Guide
+title: Theming | Uvize Style Guide
 ---
 
 # Custom Themes for Orgs

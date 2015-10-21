@@ -32,35 +32,41 @@ Mobile:
 
 Uvize is built off Bootstrap 3.
 
-Refer to the official Bootstrap documentation for details of the frameworks markup / styles design patterns:
+Refer to the official Bootstrap documentation for details of markup / styles design patterns used in the framework:
 
-<a class="btn btn-success btn-lg">Show Bootstrap Docs &rsaquo;</a>
-
-
+<a href="http://getbootstrap.com/" target="blank" class="btn btn-success btn-lg">Show Bootstrap Docs &rsaquo;</a>
+<br/><br/>
 
 ### CSS Architecture
 
-The less precompiler is used
+CSS is written in Less, for more information visit [lesscss.org](http://lesscss.org/).
 
-documentation on less here
+When the rails app is running the less will be compiled automatically so there is no need to run a seperate compiler.
 
-IE 9 hack.. split..
+Because of the [theming setup](theming.html) the less is compiled via `@import` through a string of files.
 
-Color themeing, more detail here
+Here is a basic outline of css / less content located at `app/assets/stylesheets/`:
 
+
+- `index-lib.less` (Compiles code from bootstrap)
+- `index-uvize.less` (Compiles custom app css)
+- `variables.less` (Customized version of bootstrap variables used by all code)
+- `application-<org_canonical_name>-lib.less` (Compiles library code with custom org swatch)
+- `application-<org_canonical_name>-lib.less` (Compiles Uvize code with custom org swatch)
+- `/uvize/` (Aapp specific less files)
+- `/swatches/` (Org swatch vars)
+- `/twitter/bootstrap/` (Raw Bootstrap source files)
+- `/twitter/hacks/` (Modified versions of bootstrap source files)
+- `/icons/` (Less files for icon sets)
+- `/other/` (CSS used by other third party libraries)
+
+
+
+The css is split between code from bootstrap (`index-lib.less`)and custom uvize styles(`index-uvize.less`) - an unfortunate workaround to accomodate IE 9's [4095 rule limit](http://blogs.msdn.com/b/ieinternals/archive/2011/05/14/internet-explorer-stylesheet-rule-selector-import-sheet-limit-maximum.aspx). 
 
 ### Modifications to Frameworks
 
-The core code of frameworks should never be edited directly. This makes it to complete minor version updates (by simply replacing the entire folder for Bootstrap etc), and easier to track where customisations have been made.
+Where possible the core code of frameworks has not been edited directly. This makes it to complete minor version updates without overwriting changes (by simply replacing the entire folder for Bootstrap etc), and easier to track where customisations have been made.
 
-If a file from the framework is edited, comment out the link to the previous file in the master `index-lib.less` or `index-uvize.less`, and import a modified version from a separate folder, i.e. `/hacks/` along with a brief comment explaining the changes.
 
-eg
-
-```
-// Components
-@import "twitter/bootstrap/component-animations";
-//@import "icons/glyphicons"; // Using modified version above that uses asset-url 
-@import "twitter/hacks/dropdowns"; // Tweaked version allows <span> as well as <a>
-```
 
