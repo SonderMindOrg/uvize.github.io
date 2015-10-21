@@ -20,6 +20,9 @@
   margin: 39px 0 10px 0;
   display: inline-block;
   vertical-align: top;
-  
+}
+
+.docs-content > h3 {
+  margin-top: 24px;
 }
 

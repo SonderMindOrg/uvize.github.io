@@ -3,4 +3,10 @@ layout: style-guide
 title: Brand Elements | Uvize Style Guide
 ---
 
-#Visual Style
+# Brand Elements
+
+- Logo.. font..
+
+- Downloadable sketch files
+
+- for customisation of orgs see here >
