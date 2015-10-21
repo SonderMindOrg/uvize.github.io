@@ -15,11 +15,11 @@ The `highlight` color can match the `brand` color if it contrasts well on both w
 
 ### Logos
 
-Only one logo file is required from each org.
+Only one logo file is required for each org.
 
 It should be the wide version of the logo, and simple enough to read well at small sizes.
 
-Because the logo is potentially shown on different color backgrounds it **must** be a transparent `.png` file with no background color.
+Because the logo is potentially shown on different light color backgrounds it **must** be a transparent `.png` file with no background color.
 
 The pixel dimensions for the file are as follows:
 
@@ -35,6 +35,7 @@ Example logo file:
 <span class="community-logo-full">
     <img class="logo-img" src="/gfx/style-guide/Staff-Edition.png" alt="Staff Edition">
 </span>
+<br /><br />
 
 
 ### CSS swatches for Orgs
@@ -49,9 +50,9 @@ For each org 3x less files need to be created in `app/assets/stylesheets/`:
 2. `application-<org_canonical_name>-uvize.less` 
 3. `swatches/<org_canonical_name>.less`
 
-Sheets 1. and 2. are neccesary because the `canonical_name` for the org is not currently available in the CSS, hence the hard coding into the actual file name.
+Sheets 1. and 2. are neccesary because the `canonical_name` for the org is not currently available in the CSS, hence its hard coding into the file name.
 
-These sheets contain a minimum of code, they simply load the main less files along with the correct swatch, heres how they would look for an org with `wcu` as its `canonical_name`:
+These sheets contain a minimum of code, they load the main less files along with the correct swatch, heres how they would look for an org with `wcu` as its `canonical_name`:
 
 ```
 /* wcu (application-wcu-lib.less) */
@@ -67,10 +68,8 @@ These sheets contain a minimum of code, they simply load the main less files alo
 
 The swatch sheet itself also includes options to set the color of the dark sidebar, the tone of the default blue/green used on links/alerts, and branded color themed alerts that are derived from the `brand_color`. 
 
-Sometimes it is neccesary to tweak the automatically lightened colors of alerts if the tint doesn't look good by default.
-
 ```
-/* wcu SWATCH (swatches/wcu.less) */
+/* WCU SWATCH (swatches/wcu.less) */
 
 // PRIMARY BRAND COLOR
 @swatch-brand: #8CCF62; // Brand
@@ -100,9 +99,9 @@ Sometimes it is neccesary to tweak the automatically lightened colors of alerts 
 
 ### Setting Brand Color in the DB
 
-When adding an org via the admin tools it is also neccesary to specify the `brand`.
+When adding an org via the admin tools it is also neccesary to specify the main `brand` color.
 
-Additional css rules are written into the `<head>` of the app for each org a user is a member of so that the `brand` color for each org can be used alongside the main precompiled theme.
+Additional css rules are written into the `<head>` of the app for each org a user is a member of so that the `brand` color for multiple orgs can be used alongside the main precompiled theme.
 
 Heres an example of the classes that can be used to apply those colors:
 
@@ -119,7 +118,7 @@ Heres an example of the classes that can be used to apply those colors:
 
 Here are some simple steps you can follow to cover all the basics of adding an org and testing the colors appear correctly:
 
-- Create the less files and set the correct color values.
+- Create the less files and set the correct color values in the swatch.
 - Create a logo `.png` file, 
 - Name it after the `name` of the org with `-` in the place of any spaces (i.e. `Western-Carolina-University.png` and save it to `db/img/orgs`
 - Add basic org data to your local seed data in `db/data/orgs.csv`
@@ -146,10 +145,11 @@ $ bundle exec rake db:drop db:create db:migrate db:seed
 **Troubleshooting**
 
 * DB won't reseed?
- - Check that you have named the logo correctly
+ - Check that you have named the logo correctly.
+ 
 * Correct CSS swatches not loading?
- - Check the `canonical_name` is correct through all less files
- - Make sure the `canonical_name` is set correctly in the sample data
+ - Check the `canonical_name` is correct through all less files and file names.
+ - Make sure the `canonical_name` is set correctly in the sample data.
 
 
  
