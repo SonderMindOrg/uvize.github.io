@@ -1,0 +1,25 @@
+/* Shared between main docs page and style guide */
+
+
+.docs-site .container{
+  width: 960px;
+}
+
+.docs-navbar{
+  margin-bottom: 24px!important;
+  border-radius: 0;
+}
+
+.docs-logo{
+  margin: 24px 3px 0 -24px;
+  width:189px; 
+  height:46px;
+}
+
+.docs-title{
+  margin: 39px 0 10px 0;
+  display: inline-block;
+  vertical-align: top;
+  
+}
+
