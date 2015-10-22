@@ -49,7 +49,7 @@ For each org 3x less files need to be created in `app/assets/stylesheets/`:
 2. `application-<org_canonical_name>-uvize.less` 
 3. `swatches/<org_canonical_name>.less`
 
-Sheets 1. and 2. are neccesary because the `canonical_name` for the org is not currently available in the CSS, hence its hard coding into the file name.
+Sheets 1. and 2. are neccesary because the `canonical_name` for the org is not currently available in the CSS, hence it is hard coded into the file name.
 
 These sheets contain a minimum of code, they load the main less files along with the correct swatch, heres how they would look for an org with `wcu` as its `canonical_name`:
 
@@ -82,16 +82,16 @@ The swatch sheet itself also includes options to set the color of the dark sideb
 // COMPLIMENTARY DARK COLOR (Sidebar BG and darkest text)
 @swatch-dark: #3A454D; // Dark Blue
 
-// BRAND INFO
-@swatch-info: #478DC8;// The default blue used across the site
+// BRAND INFO 
+@swatch-info: #478DC8;// The default blue used in links etc across the site
 
 // BRAND SUCCESS
 @swatch-success: #8ccf62;// A default green for success messages etc
 
-// BRAND LIGHT BG
+// BRAND LIGHT BG (Background on branded Alerts)
 @swatch-brand-light-bg: lighten(@swatch-brand, 30%);
 
-// BRAND DARK TEXT
+// BRAND DARK TEXT (Text color on branded Alerts)
 @swatch-brand-dark-text:  darken(spin(@swatch-brand, -10), 20%);
 ```
 
