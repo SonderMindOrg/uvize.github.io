@@ -42,10 +42,10 @@ The headings appear differently when nested in the `.marketing-site-wrapper`.
 
 Paragraphs inherit their style from the `body` - Helvetica Neue @ 14px with 20px linespacing. 
 
-As with [Bootstrap](http://getbootstrap.com/css/#type-headings), modifiers like `<strong>` and `<span class="text-muted">` can be applied with pre-styled effects.
+As with [Bootstrap](http://getbootstrap.com/css/#type-headings), modifiers like `<strong>` and `<span class="text-muted">` can be applied with pre-styled effects. By default Links are styled <a href="#">blue</a>, links to <a class="username">usernames</a> and other things such as groups are in bold in dark blue via the `.username` class.
   
 <div class="docs-example">
-  <p>A standard paragraph from with <strong>strong</strong> and <span class="text-muted">muted</span> text.</p>
+  <p>A standard paragraph from with a <a href="#">link</a>, a <a class="username">username</a>, and <strong>strong</strong> and <span class="text-muted">muted</span> text.</p>
 </div>
   
 For help copy the first `<p>` nested inside an element with the `.helper-info` class will get an icon:
@@ -61,11 +61,32 @@ Marketing site copy is larger and set in Lato Light @ 16px with 140% linespacing
 
 <div class="docs-example">
   <div class="marketing-site-wrapper">
-  <p>A paragraph from the marketing site with <strong>strong</strong> and <span class="text-muted">muted</span> text.</p>
+  <p>A standard paragraph from with a <a href="#">link</a>, a <a class="username">username</a>, and <strong>strong</strong> and <span class="text-muted">muted</span> text.</p>
   </div>
 </div>
 
 
 
 ### Alerts
+
+[Bootstrap style alerts](http://getbootstrap.com/components/#alerts) can be used by adding the class `.alert`.
+
+<div class="docs-example">
+  <div class="alert alert-success" role="alert"><strong>Success!</strong> Add the classes .alert and .alert-success</div>
+  <div class="alert alert-info" role="alert"><strong>Info!</strong> Add the classes .alert and .alert-info</div>
+  <div class="alert alert-warning" role="alert"><strong>Warning!</strong> Add the classes .alert and .alert-warning</div>
+  <div class="alert alert-danger" role="alert"><strong>Danger!</strong> Add the classes .alert and .alert-danger</div>
+</div>
+
+The default alert has also been added back as a hack so that the gray alert theme could be used:
+
+<div class="docs-example">
+  <div class="alert alert-default" role="alert"><strong>Default!</strong> Add the classes .alert and .alert-default</div>
+</div>
+
+And there is also a custom alert that uses the `brand` color (note that the `brand` color for these docs is green!):
+
+<div class="docs-example">
+  <div class="alert alert-brand" role="alert"><strong>Branded!</strong> Add the classes .alert and .alert-brand</div>
+</div>
 
