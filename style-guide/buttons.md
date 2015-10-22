@@ -67,6 +67,27 @@ To space a set of buttons for actions on a post wrap them in a `<ul>` with the c
   </ul>
 </div>
 
+### Hover Reveal
+
+For buttons you want to reveal only when an item is hovered you can use the `.hover-reveal` pattern. Add the class `.hover-parent` to choose a parent item that will trigger the reveal, and add `.hover-reveal` to any items you want to hide.
+
+The buttons will only hide on desktop browsers not touch devices.
+
+<div class="docs-example hover-parent">
+  <ul class="post-interactions-mini">
+    <li>
+      <a class="btn btn-link light-txt-btn">
+        <span class="glyphicon glyphicon-trash"></span> Always Show
+      </a>
+    </li>
+    <li>
+      <a class="btn btn-link light-txt-btn hover-reveal">
+        <span class="glyphicon glyphicon-edit"></span> Show On Hover
+      </a>
+    </li>
+  </ul>
+</div> 
+
 ### Action Links
 
 Sometimes the class `.accent-link` is used to give emphasis to an inline link instead of using a button:
