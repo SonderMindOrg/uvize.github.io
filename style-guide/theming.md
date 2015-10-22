@@ -30,12 +30,11 @@ Transparent padding above and below the logo to fill out the height is acceptabl
 
 The logo will display on screen at half this size (the extra resolution is to accomodate @2x retina screens)
 
-Example logo file:
-
-<span class="community-logo-full">
-    <img class="logo-img" src="/gfx/style-guide/Staff-Edition.png" alt="Staff Edition">
-</span>
-<br /><br />
+<div class="docs-example">
+  <span class="community-logo-full">
+      <img class="logo-img" src="/gfx/style-guide/Staff-Edition.png" alt="Staff Edition">
+  </span>
+</div>
 
 
 ### CSS swatches for Orgs
@@ -135,13 +134,13 @@ $ bundle exec rake db:drop db:create db:migrate db:seed
 
 - Start your local dev environment and visit the sign up page. Add the `canonical_name` as a URL param, i.e. `http://localhost:5000/users/sign_up?c=wcu`
 - Check that the background color of the alert looks good, maybe you will need to adjust the lightness in the swatch file.
-<br /><br />
+<div class="docs-example">
 <img class="img-responsive" src="/gfx/style-guide/wcu-join.jpg" alt="WCU Example" />
-<br />
+</div>
 - Create a new user account and view the welcome page. Does the `highlight` color stand out well on the sidebar buttons? Does the `brand` color stand out well on the buttons on white? If not you may need to tweak the swatch file / try different values.
-<br /><br />
+<div class="docs-example">
 <img class="img-responsive" src="/gfx/style-guide/wcu-login.jpg" alt="WCU Example" />
-<br /><br />
+</div>
 **Troubleshooting**
 
 * DB won't reseed?
