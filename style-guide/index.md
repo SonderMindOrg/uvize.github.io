@@ -64,6 +64,10 @@ Here is a basic outline of css / less content located at `app/assets/stylesheets
 
 The css is split between code from bootstrap (`index-lib.less`)and custom uvize styles(`index-uvize.less`) - an unfortunate workaround to accomodate IE 9's [4095 rule limit](http://blogs.msdn.com/b/ieinternals/archive/2011/05/14/internet-explorer-stylesheet-rule-selector-import-sheet-limit-maximum.aspx). 
 
+In general for styles within the `/uvize/` folder each site section (i.e. `goals.less`) will have its own less file with custom styles. There are also less files for customisations of elements (i.e. `headings.less`).
+
+Structural styles and misc shared design patterns are kept in `page-structure.less`.
+
 ### Modifications to Frameworks
 
 Where possible the core code of frameworks has not been edited directly. This makes it to complete minor version updates without overwriting changes (by simply replacing the entire folder for Bootstrap etc), and easier to track where customisations have been made.
