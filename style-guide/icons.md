@@ -131,7 +131,7 @@ Add the `.glyphicon` class to an element like `<span>` and add a modifier like `
 	<li><i class="glyphicon glyphicon-plane"></i>plane</li>
 	<li><i class="glyphicon glyphicon-calendar"></i>calendar</li>
 	<li><i class="glyphicon glyphicon-random"></i>random</li>
-	<li><i class="glyphicon glyphicon-comments"></i>comments</li>
+	<li><i class="glyphicon glyphicon-comment"></i>comment</li>
 	<li><i class="glyphicon glyphicon-magnet"></i>magnet</li>
 	<li><i class="glyphicon glyphicon-chevron-up"></i>chevron-up</li>
 	<li><i class="glyphicon glyphicon-chevron-down"></i>chevron-down</li>
@@ -149,11 +149,11 @@ Add the `.glyphicon` class to an element like `<span>` and add a modifier like `
 	<li><i class="glyphicon glyphicon-thumbs-down"></i>thumbs-down</li>
 	<li><i class="glyphicon glyphicon-hand-right"></i>hand-right</li>
 	<li><i class="glyphicon glyphicon-hand-left"></i>hand-left</li>
-	<li><i class="glyphicon glyphicon-hand-top"></i>hand-top</li>
+	<li><i class="glyphicon glyphicon-hand-up"></i>hand-up</li>
 	<li><i class="glyphicon glyphicon-hand-down"></i>hand-down</li>
 	<li><i class="glyphicon glyphicon-circle-arrow-right"></i>circle-arrow-right</li>
 	<li><i class="glyphicon glyphicon-circle-arrow-left"></i>circle-arrow-left</li>
-	<li><i class="glyphicon glyphicon-circle-arrow-top"></i>circle-arrow-top</li>
+	<li><i class="glyphicon glyphicon-circle-arrow-up"></i>circle-arrow-up</li>
 	<li><i class="glyphicon glyphicon-circle-arrow-down"></i>circle-arrow-down</li>
 	<li><i class="glyphicon glyphicon-globe"></i>globe</li>
 	<li><i class="glyphicon glyphicon-wrench"></i>wrench</li>
@@ -179,8 +179,8 @@ Add the `.glyphicon` class to an element like `<span>` and add a modifier like `
 	<li><i class="glyphicon glyphicon-sort-by-attributes-alt"></i>sort-by-attributes-alt</li>
 	<li><i class="glyphicon glyphicon-unchecked"></i>unchecked</li>
 	<li><i class="glyphicon glyphicon-expand"></i>expand</li>
-	<li><i class="glyphicon glyphicon-collapse"></i>collapse</li>
-	<li><i class="glyphicon glyphicon-collapse-top"></i>collapse-top</li>
+	<li><i class="glyphicon glyphicon-collapse-down"></i>collapse-down</li>
+	<li><i class="glyphicon glyphicon-collapse-up"></i>collapse-up</li>
 </ul>
 
 ### Glyphicon Full Icons
@@ -276,7 +276,7 @@ Add the `.glyphicon-full` class to an element like `<span>` and add a modifier l
 	<li><i class="glyphicon-full glyphicon-repeat"></i>repeat</li>
 	<li><i class="glyphicon-full glyphicon-display"></i>display</li>
 	<li><i class="glyphicon-full glyphicon-log_book"></i>log_book</li>
-	<li><i class="glyphicon-full glyphicon-adress_book"></i>adress_book</li>
+	<li><i class="glyphicon-full glyphicon-address_book"></i>address_book</li>
 	<li><i class="glyphicon-full glyphicon-building"></i>building</li>
 	<li><i class="glyphicon-full glyphicon-eyedropper"></i>eyedropper</li>
 	<li><i class="glyphicon-full glyphicon-adjust"></i>adjust</li>
