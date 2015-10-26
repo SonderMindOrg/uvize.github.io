@@ -53,16 +53,19 @@
   float: left;
   background-color: rgba(184, 184, 184, 0.1);
   width: 90px;
-  height: 115px;
+  height:90px;
   margin: 0 2px 2px 0;
   display: block;
   text-align: center;
-  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden;
   padding: 5px;
+  white-space: nowrap;
 }
 .docs-icons-preview > li .glyphicon,
-.docs-icons-preview > li .glyphicon-full{
-  margin-top: 5px;
+.docs-icons-preview > li .glyphicon-full,
+.docs-icons-preview > li .glyphicon-social{
+  margin-top: 15px;
   margin-bottom: 10px;
   font-size: 24px;
   display: block;

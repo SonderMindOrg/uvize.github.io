@@ -569,46 +569,7 @@ Add the `.glyphicon-full` class to an element like `<span>` and add a modifier l
 	<li><i class="glyphicon-full glyphicon-riflescope"></i>riflescope</li>
 	<li><i class="glyphicon-full glyphicon-electrical_socket_eu"></i>electrical_socket_eu</li>
 	<li><i class="glyphicon-full glyphicon-electrical_socket_us"></i>electrical_socket_us</li>
-	<li><i class="glyphicon-full glyphicon-pinterest"></i>pinterest</li>
-	<li><i class="glyphicon-full glyphicon-dropbox"></i>dropbox</li>
-	<li><i class="glyphicon-full glyphicon-google_plus"></i>google_plus</li>
-	<li><i class="glyphicon-full glyphicon-jolicloud"></i>jolicloud</li>
-	<li><i class="glyphicon-full glyphicon-yahoo"></i>yahoo</li>
-	<li><i class="glyphicon-full glyphicon-blogger"></i>blogger</li>
-	<li><i class="glyphicon-full glyphicon-picasa"></i>picasa</li>
-	<li><i class="glyphicon-full glyphicon-amazon"></i>amazon</li>
-	<li><i class="glyphicon-full glyphicon-tumblr"></i>tumblr</li>
-	<li><i class="glyphicon-full glyphicon-wordpress"></i>wordpress</li>
-	<li><i class="glyphicon-full glyphicon-instapaper"></i>instapaper</li>
-	<li><i class="glyphicon-full glyphicon-evernote"></i>evernote</li>
-	<li><i class="glyphicon-full glyphicon-xing"></i>xing</li>
-	<li><i class="glyphicon-full glyphicon-zootool"></i>zootool</li>
-	<li><i class="glyphicon-full glyphicon-dribbble"></i>dribbble</li>
-	<li><i class="glyphicon-full glyphicon-deviantart"></i>deviantart</li>
-	<li><i class="glyphicon-full glyphicon-read_it_later"></i>read_it_later</li>
-	<li><i class="glyphicon-full glyphicon-linked_in"></i>linked_in</li>
-	<li><i class="glyphicon-full glyphicon-forrst"></i>forrst</li>
-	<li><i class="glyphicon-full glyphicon-pinboard"></i>pinboard</li>
-	<li><i class="glyphicon-full glyphicon-behance"></i>behance</li>
-	<li><i class="glyphicon-full glyphicon-github"></i>github</li>
-	<li><i class="glyphicon-full glyphicon-youtube"></i>youtube</li>
-	<li><i class="glyphicon-full glyphicon-skitch"></i>skitch</li>
-	<li><i class="glyphicon-full glyphicon-foursquare"></i>foursquare</li>
-	<li><i class="glyphicon-full glyphicon-quora"></i>quora</li>
-	<li><i class="glyphicon-full glyphicon-badoo"></i>badoo</li>
-	<li><i class="glyphicon-full glyphicon-spotify"></i>spotify</li>
-	<li><i class="glyphicon-full glyphicon-stumbleupon"></i>stumbleupon</li>
-	<li><i class="glyphicon-full glyphicon-readability"></i>readability</li>
-	<li><i class="glyphicon-full glyphicon-facebook"></i>facebook</li>
-	<li><i class="glyphicon-full glyphicon-twitter"></i>twitter</li>
-	<li><i class="glyphicon-full glyphicon-instagram"></i>instagram</li>
-	<li><i class="glyphicon-full glyphicon-posterous_spaces"></i>posterous_spaces</li>
-	<li><i class="glyphicon-full glyphicon-vimeo"></i>vimeo</li>
-	<li><i class="glyphicon-full glyphicon-flickr"></i>flickr</li>
-	<li><i class="glyphicon-full glyphicon-last_fm"></i>last_fm</li>
-	<li><i class="glyphicon-full glyphicon-rss"></i>rss</li>
-	<li><i class="glyphicon-full glyphicon-skype"></i>skype</li>
-	<li><i class="glyphicon-full glyphicon-e-mail"></i>e-mail</li>
+	
   
 </ul>
 
@@ -616,7 +577,48 @@ Add the `.glyphicon-full` class to an element like `<span>` and add a modifier l
 
 Add the `.glyphicon-social` class to an element like `<span>` and add a modifier like `.glyphicon-facebook` to set the icon. 
   
-See the [Glyphicons Site](http://glyphicons.com/) for an icon list.
+<ul class="docs-icons-preview list-unstyled clearfix">
+	<li><i class="glyphicon-social glyphicon-pinterest"></i>pinterest</li>
+	<li><i class="glyphicon-social glyphicon-dropbox"></i>dropbox</li>
+	<li><i class="glyphicon-social glyphicon-google_plus"></i>google_plus</li>
+	<li><i class="glyphicon-social glyphicon-jolicloud"></i>jolicloud</li>
+	<li><i class="glyphicon-social glyphicon-yahoo"></i>yahoo</li>
+	<li><i class="glyphicon-social glyphicon-blogger"></i>blogger</li>
+	<li><i class="glyphicon-social glyphicon-picasa"></i>picasa</li>
+	<li><i class="glyphicon-social glyphicon-amazon"></i>amazon</li>
+	<li><i class="glyphicon-social glyphicon-tumblr"></i>tumblr</li>
+	<li><i class="glyphicon-social glyphicon-wordpress"></i>wordpress</li>
+	<li><i class="glyphicon-social glyphicon-instapaper"></i>instapaper</li>
+	<li><i class="glyphicon-social glyphicon-evernote"></i>evernote</li>
+	<li><i class="glyphicon-social glyphicon-xing"></i>xing</li>
+	<li><i class="glyphicon-social glyphicon-zootool"></i>zootool</li>
+	<li><i class="glyphicon-social glyphicon-dribbble"></i>dribbble</li>
+	<li><i class="glyphicon-social glyphicon-deviantart"></i>deviantart</li>
+	<li><i class="glyphicon-social glyphicon-read_it_later"></i>read_it_later</li>
+	<li><i class="glyphicon-social glyphicon-linked_in"></i>linked_in</li>
+	<li><i class="glyphicon-social glyphicon-forrst"></i>forrst</li>
+	<li><i class="glyphicon-social glyphicon-pinboard"></i>pinboard</li>
+	<li><i class="glyphicon-social glyphicon-behance"></i>behance</li>
+	<li><i class="glyphicon-social glyphicon-github"></i>github</li>
+	<li><i class="glyphicon-social glyphicon-youtube"></i>youtube</li>
+	<li><i class="glyphicon-social glyphicon-skitch"></i>skitch</li>
+	<li><i class="glyphicon-social glyphicon-foursquare"></i>foursquare</li>
+	<li><i class="glyphicon-social glyphicon-quora"></i>quora</li>
+	<li><i class="glyphicon-social glyphicon-badoo"></i>badoo</li>
+	<li><i class="glyphicon-social glyphicon-spotify"></i>spotify</li>
+	<li><i class="glyphicon-social glyphicon-stumbleupon"></i>stumbleupon</li>
+	<li><i class="glyphicon-social glyphicon-readability"></i>readability</li>
+	<li><i class="glyphicon-social glyphicon-facebook"></i>facebook</li>
+	<li><i class="glyphicon-social glyphicon-twitter"></i>twitter</li>
+	<li><i class="glyphicon-social glyphicon-instagram"></i>instagram</li>
+	<li><i class="glyphicon-social glyphicon-posterous_spaces"></i>posterous_spaces</li>
+	<li><i class="glyphicon-social glyphicon-vimeo"></i>vimeo</li>
+	<li><i class="glyphicon-social glyphicon-flickr"></i>flickr</li>
+	<li><i class="glyphicon-social glyphicon-last_fm"></i>last_fm</li>
+	<li><i class="glyphicon-social glyphicon-rss"></i>rss</li>
+	<li><i class="glyphicon-social glyphicon-skype"></i>skype</li>
+	<li><i class="glyphicon-social glyphicon-e-mail"></i>e-mail</li>
+</ul>
 	
 </body>
 </html>
