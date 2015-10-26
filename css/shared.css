@@ -43,3 +43,29 @@
   margin-bottom: 10px;
   display: block;
 }
+
+.docs-icons-preview{
+  margin: 0 0 24px 0;
+  padding: 0; 
+  display: block;
+}
+.docs-icons-preview > li {
+  float: left;
+  background-color: rgba(184, 184, 184, 0.1);
+  width: 90px;
+  height: 115px;
+  margin: 0 2px 2px 0;
+  display: block;
+  text-align: center;
+  word-wrap: break-word;
+  padding: 5px;
+}
+.docs-icons-preview > li .glyphicon,
+.docs-icons-preview > li .glyphicon-full{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  display: block;
+}
+
+
