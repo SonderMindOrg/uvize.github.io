@@ -7,8 +7,14 @@ title: Brand Elements | Uvize Style Guide
 
 The Uvize logo is available via a <a href="/downloads/fonts/Uvize-Logo.zip">custom icon font</a>. This allows it to be set to any color and remain crisp at all sizes.
 
-<div class="example">
-  <span class="uvize-graph-logo-font icon-uvize-graph-sidebar-solid"></span>  
+<div class="docs-example">
+  <span class="uvize-graph-logo-font icon-uvize-graph-sidebar-solid highlight-color" style="font-size: 80px;"></span> <br><br>
+  <span class="uvize-graph-logo-font icon-uvize-graph-topbar-solid"></span>  <br><br>
+  
+  <span class="uvize-graph-logo-font icon-uvize-graph-mark-solid text-muted"></span>  <br><br>
+  <span class="uvize-graph-logo-font icon-uvize-logotype-only text-muted" style="font-size: 40px;"></span>  <br><br>
+   
+   
 </div>
 
 ### Typefaces
