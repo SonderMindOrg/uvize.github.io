@@ -12,7 +12,7 @@ The various styles of modals are documented here along with their key modifier c
 
 ### Sidebar Modal
 
-Commonly used for settings type modals, the `.sidebar-modal` has a navigational sidebar which collapses to a select on mobile screens:
+Commonly used for settings type modals, the `.sidebar-modal` has a navigational sidebar which collapses to a dropdown on mobile screens:
 
 <div class="docs-example">
   <img src="/gfx/style-guide/sidebar-modal.png" class="img-responsive" alt="Sidebar Modal">
