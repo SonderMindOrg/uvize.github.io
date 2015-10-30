@@ -34,15 +34,15 @@ Using `.card` class as a base, with `.btn-row` and `.x3` `.icon-btn` buttons:
 
 <div class="docs-example">
   <div class="card btn-row x3">
-    <a ng-click="$root.Modal.createEvent($root.user.primary_org.default_group.id)" class="icon-btn">
+    <a class="icon-btn">
       <span class="glyphicon-full glyphicon-calendar"></span>
         Standard
     </a>
-    <a ng-click="$root.Modal.createEvent($root.user.primary_org.default_group.id)" class="icon-btn">
+    <a class="icon-btn">
       <span class="glyphicon-full glyphicon-calendar"></span>
         Standard
     </a>
-    <a ng-click="$root.Modal.createEvent($root.user.primary_org.default_group.id)" class="icon-btn highlight-btn">
+    <a class="icon-btn highlight-btn">
       <span class="glyphicon-full glyphicon-calendar"></span>
         Highlight
     </a>
