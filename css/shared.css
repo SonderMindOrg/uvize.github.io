@@ -5,15 +5,24 @@
   width: 960px;
 }
 
-@media (max-width: 960px) {
-  .docs-site .container{
-    width: 100%;
-  }
-}
 
 .docs-navbar{
   margin-bottom: 24px!important;
   border-radius: 0;
+}
+
+.docs-navbar .nav > li > a .glyphicon-full,
+.docs-sidebar-header .nav > li > a .glyphicon-full
+ {
+  font-size: 20px;
+}
+
+.docs-navbar .nav > li > a:hover, 
+.docs-navbar .nav > li >a:focus,
+.docs-sidebar-header .nav > li > a:hover, 
+.docs-sidebar-header .nav > li >a:focus {
+    text-decoration: none;
+    background-color: transparent;
 }
 
 .docs-logo{
@@ -30,6 +39,10 @@
 
 .docs-content > h3 {
   margin-top: 24px;
+}
+
+.docs-menu{
+  padding: 48px 24px;
 }
 
 .docs-example{
@@ -75,6 +88,48 @@
   margin-bottom: 10px;
   font-size: 24px;
   display: block;
+}
+
+.docs-sidebar-header{
+  margin-top: -12px;
+}
+
+
+@media (max-width: 960px) {
+  .docs-site .container{
+    width: 100%;
+  }
+  .docs-logo {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  .docs-title {
+      margin-top: 45px;
+  }
+
+  .docs-navbar .nav > li > a {
+    padding-right: 0;
+    padding-top: 45px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px){
+  .docs-logo {
+    margin: 30px 3px 0 0px;
+    width: 142px;
+    height: 35px;
+  }
+  .docs-title {
+      font-size: 12px;
+      margin-top: 40px;
+      
+  }
+  .docs-navbar .nav > li > a {
+    padding-right: 0;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
 }
 
 
