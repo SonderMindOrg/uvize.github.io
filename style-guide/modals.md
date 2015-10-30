@@ -5,29 +5,53 @@ title: Modals | Uvize Style Guide
 
 # Modals
 
-- Different modal styles
+The app uses the basics of [Bootstraps Modal Conventions](http://getbootstrap.com/javascript/#modals).
+
+The various styles of modals are documented here along with their key modifier classes. Refer to the live app code for working examples.
 
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
+### Sidebar Modal
 
-<!-- Modal -->
-<div class="modal-dialog modal-action modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+Commonly used for settings type modals, the `.sidebar-modal` has a navigational sidebar which collapses to a select on mobile screens:
+
+<div class="docs-example">
+  <img src="/gfx/style-guide/sidebar-modal.png" class="img-responsive" alt="Sidebar Modal">
+</div>
+
+### Modal Steps
+
+By using the `.collapse-modal-steps` modifier class with a `.sidebar-modal` you can create a variation where the tabs appear as steps towards a final goal:
+
+<div class="docs-example">
+  <img src="/gfx/style-guide/modal-steps.png" class="img-responsive" alt="Modal Steps">
+</div>
+
+### Fullscreen On Mobile
+
+Many modals utilize the `.fullscreen-xs` modifier to have a fullscreen scrolling layout on mobile.
+
+<div class="docs-example">
+  <div class="row">
+    <div class="col-smp-9">
+      <img src="/gfx/style-guide/fullscreen-xs.jpg" class="img-responsive" alt="Modal Steps">
     </div>
   </div>
 </div>
+
+### Action Modal
+
+`.modal-action` is a simple modal layout pattern for use confirming actions, etc:
+
+<div class="docs-example">
+  <img src="/gfx/style-guide/modal-action.png" class="img-responsive" alt="Modal Steps">
+</div>
+
+
+### Marketing Site Modal
+
+`.modal-marketing` is a taller one column modal is used in the marketing site and some newer areas of the design:
+
+<div class="docs-example">
+  <img src="/gfx/style-guide/marketing-modal.png" class="img-responsive" alt="Modal Steps">
+</div>
+
