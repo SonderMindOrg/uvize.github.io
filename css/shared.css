@@ -5,6 +5,12 @@
   width: 960px;
 }
 
+@media (max-width: 960px) {
+  .docs-site .container{
+    width: 100%;
+  }
+}
+
 .docs-navbar{
   margin-bottom: 24px!important;
   border-radius: 0;
