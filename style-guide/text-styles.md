@@ -5,9 +5,11 @@ title: Brand Elements | Uvize Style Guide
 
 # Text Styles
 
-The web app primarily uses the **Helvetica Neue** typeface in regular, light, and bold variations.
+The web app primarily uses the **Helvetica Neue** typeface in *regular*, *light*, and *bold* variations.
 
-Through the recent brand update the **Lato** Typeface has  been introduced in regular, bold, and black variations. Marketing sites and some web app content uses these styles which can be applied by nesting content in an element with the `.marketing-site-wrapper` class.
+Through the recent brand update the **Lato** Typeface has  been introduced in *regular*, *bold*, and *black variations*. Marketing sites and some web app content uses these styles which can be applied by nesting content in an element with the `.marketing-site-wrapper` class.
+
+Check the <a href="brand-elements.html">Brand Elements Page</a> for info on downloading these fonts.
 
 ### Headings
 

@@ -19,7 +19,7 @@ The Uvize logo is available via a <a href="/downloads/fonts/Uvize-Logo.zip">cust
 
 ### Typefaces
 
-Typefaces used in the project include Lato and Helvetica Neue. Helvetica Neue is installed on Mac OS X by default, or can be <a href="https://www.myfonts.com/fonts/linotype/neue-helvetica/">purchased here</a>.
+Typefaces used in the project include **Lato** and **Helvetica Neue**. **Helvetica Neue** is installed on Mac OS X by default, or can be <a href="https://www.myfonts.com/fonts/linotype/neue-helvetica/">purchased here</a>.
 
 <a  href="/downloads/fonts/lato.zip" class="accent-link add-arrow">Download Lato</a>
 

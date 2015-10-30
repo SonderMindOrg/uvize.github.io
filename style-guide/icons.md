@@ -5,9 +5,9 @@ title: Brand Elements | Uvize Style Guide
 
 # Icon Sets
 
-Uvize primarily uses the <a href="http://glyphicons.com/"> Glyphicon Pro</a> Icon Set.
+Uvize primarily uses the <a href="http://glyphicons.com/">Glyphicon Pro</a> Icon Set.
 
-Usage matches the conventions followed by [Bootstrap](http://getbootstrap.com/components/#glyphicons), but is extended to include the Full and Social sets from Pro.
+Usage matches the conventions followed by [Bootstrap](http://getbootstrap.com/components/#glyphicons) with **Glyphicon Halflings**, but is extended to include the **Full** and **Social** sets from <a href="http://glyphicons.com/">Glyphicons Pro</a>.
 
 <a  href="http://getbootstrap.com/components/#glyphicons" class="accent-link add-arrow">Show Bootstrap Docs</a>&nbsp;&nbsp;
 <a  href="/downloads/fonts/Glyphicons.zip" class="accent-link add-arrow">Download Glyphicon Sets</a>

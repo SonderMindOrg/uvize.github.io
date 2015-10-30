@@ -13,7 +13,7 @@ Javascript aside, modern markup and CSS properties degrade gracefully for older 
 
 Uvize is designed primarily as a desktop web app, but utilizes responsive design to also present as a highly functional mobile web app.
 
-This documentation uses a compiled version of the actual [uvize.com](http://uvize.com) css, so examples and content here should be consistent with uses on the site. In rare cases where a modification specific to the documentation site is present these classes will be prefixed `.docs-`.
+This documentation uses a compiled version of the actual [uvize.com](http://uvize.com) CSS, so examples and content here should be consistent with uses on the site. In rare cases where a modification specific to the documentation site is present these classes will be prefixed `.docs-`.
 
 ### Targeted Browsers
 

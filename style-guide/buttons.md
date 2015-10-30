@@ -51,14 +51,15 @@ To space a set of buttons for actions on a post wrap them in a `<ul>` with the c
   <ul class="post-interactions-mini">
     <li>
       <a class="btn btn-link light-txt-btn">
-        <span class="glyphicon glyphicon-edit"></span>
+        <span class="glyphicon glyphicon-comment"></span>
       </a>
     </li>
     <li>
       <a class="btn btn-link light-txt-btn">
-        <span class="glyphicon glyphicon-trash"></span>
+        <span class="glyphicon glyphicon-pencil"></span>
       </a>
     </li>
+  
     <li>
       <a class="btn btn-link light-txt-btn">
         <span class="glyphicon glyphicon-trash"></span>
@@ -77,12 +78,12 @@ The buttons will only hide on desktop browsers not touch devices.
   <ul class="post-interactions-mini">
     <li>
       <a class="btn btn-link light-txt-btn">
-        <span class="glyphicon glyphicon-trash"></span> Always Show
+        <span class="glyphicon glyphicon-comment"></span> Always Show
       </a>
     </li>
     <li>
       <a class="btn btn-link light-txt-btn hover-reveal">
-        <span class="glyphicon glyphicon-edit"></span> Show On Hover
+        <span class="glyphicon glyphicon-pencil"></span> Show On Hover
       </a>
     </li>
   </ul>

@@ -5,7 +5,7 @@ title: Theming | Uvize Style Guide
 
 # Custom Themes for Orgs
 
-Uvize is developed so each instance can be skinnable with a custom color scheme and logo.
+Uvize is developed so that each instance can be skinnable with a custom color scheme and logo.
 
 Each org has a `brand` color and a `highlight` color.
 
@@ -43,29 +43,11 @@ Each org has its own swatch file. Both the `brand` and `highlight` color can be 
 
 These colors are set as less variables and compiled into the master styles for the site.
 
-For each org 3x less files need to be created in `app/assets/stylesheets/`:
+A LESS swatch file should be added to `app/assets/stylesheets/swatches`:
 
-1. `application-<org_canonical_name>-lib.less` 
-2. `application-<org_canonical_name>-uvize.less` 
-3. `swatches/<org_canonical_name>.less`
+- `swatches/<org_canonical_name>.less`
 
-Sheets 1. and 2. are neccesary because the `canonical_name` for the org is not currently available in the CSS, hence it is hard coded into the file name.
-
-These sheets contain a minimum of code, they load the main less files along with the correct swatch, heres how they would look for an org with `wcu` as its `canonical_name`:
-
-```
-/* wcu (application-wcu-lib.less) */
-@import "swatches/wcu.less";
-@import "index-lib.less";
-```
-```
-/* wcu (application-wcu-uvize.less) */
-@import "swatches/wcu.less";
-@import "index-uvize.less";
-```
-
-
-The swatch sheet itself also includes options to set the color of the dark sidebar, the tone of the default blue/green used on links/alerts, and branded color themed alerts that are derived from the `brand_color`. 
+The swatch sheet itself also includes options to set the color of the dark sidebar, the tone of the default blue/green used on links/alerts, and branded color themed alerts that are derived from the `brand_color`: 
 
 ```
 /* WCU SWATCH (swatches/wcu.less) */
@@ -93,14 +75,34 @@ The swatch sheet itself also includes options to set the color of the dark sideb
 
 // BRAND DARK TEXT (Text color on branded Alerts)
 @swatch-brand-dark-text:  darken(spin(@swatch-brand, -10), 20%);
-```
+````
 
+For each org 2x less files to complile the base less files with the custom swatch need to be created in `app/assets/stylesheets/`:
+
+- `application-<org_canonical_name>-lib.less` 
+- `application-<org_canonical_name>-uvize.less` 
+
+
+These files are neccesary because the `canonical_name` for the org is not currently available in the CSS, hence it is hard coded into the file name.
+
+These sheets contain a minimum of code, they load the main less files along with the correct swatch, heres how they would look for an org with `wcu` as its `canonical_name`:
+
+```
+/* wcu (application-wcu-lib.less) */
+@import "swatches/wcu.less";
+@import "index-lib.less";
+```
+```
+/* wcu (application-wcu-uvize.less) */
+@import "swatches/wcu.less";
+@import "index-uvize.less";
+```
 
 ### Setting Brand Color in the DB
 
 When adding an org via the admin tools it is also neccesary to specify the main `brand` color.
 
-Additional css rules are written into the `<head>` of the app for each org a user is a member of so that the `brand` color for multiple orgs can be used alongside the main precompiled theme.
+Additional css rules are automatically written into the `<head>` of the app for each org a user is a member of so that the `brand` color for multiple orgs can be used alongside the main precompiled theme.
 
 Heres an example of the classes that can be used to apply those colors:
 
@@ -132,7 +134,7 @@ Western Carolina University,wcu,WCU,wcu,Veterans,school,#8CCF62
 $ bundle exec rake db:drop db:create db:migrate db:seed
 ````
 
-- Start your local dev environment and visit the sign up page. Add the `canonical_name` as a URL param, i.e. `http://localhost:5000/users/sign_up?c=wcu`
+- Start your local dev environment and visit the sign up page. Add the `canonical_name` as a URL param, i.e. `http://localhost:3000/users/sign_up?c=wcu`
 - Check that the background color of the alert looks good, maybe you will need to adjust the lightness in the swatch file.
 <div class="docs-example">
 <img class="img-responsive" src="/gfx/style-guide/wcu-join.jpg" alt="WCU Example" />
