@@ -40,9 +40,6 @@ In cases where a form element doesn't have an associated `<label>` be sure to ad
 i.e.:
 `<input type="email" aria-label="Email Address:" placeholder="name@example.com"/>`
 
-### Modals
-
-TBC once we figure out flow 
 
 ### Bootstrap
 
