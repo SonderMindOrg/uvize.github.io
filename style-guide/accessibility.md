@@ -29,9 +29,9 @@ Links and buttons that trigger script actions (as opposed to using an `href`) do
 
 In cases where it is semantically correct, use `<button>` as opposed to `<a>` to remedy this, and improve the quality of markup.
   
-In cases where `<button>` is not appropriate, add the attribute `ariaButton` - a custom directive will apply extra attributes needed to give the element tab focus and clickability, i.e:
+In cases where `<button>` is not appropriate, add the attribute `aria-button` - a custom directive will apply extra attributes needed to give the element tab focus and clickability, i.e:
   
-`<a ng-click="getMentor()" ariaButton>Show mentor</a>`
+`<a ng-click="getMentor()" aria-button>Show mentor</a>`
 
 ### Forms
 
