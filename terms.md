@@ -7,9 +7,9 @@ title: Terms of Service | Uvize
 
 Welcome to Uvize! 
 
-Uvize empowers military veteran students and staff members to guide each other through academia, but please note that your invitation is subject to your review and agreement with these Terms of service. 
+Uvize empowers people to have meaningful mentor relationships, but please note that your invitation is subject to your review and agreement with these Terms of service. 
 
-This document describes in detail your rights and our rights relating to the provision of the service and the operation of the Uvize, so please review these Terms.
+This document describes in detail your rights and our rights relating to the provision of the service and use of the Uvize Software as a Service platform, so please review these Terms.
 
 
 ## What Are The Terms of Service?
@@ -37,7 +37,7 @@ We will nonetheless take all reasonable and appropriate steps to insure the safe
 
 Yes, Uvize will provide advisors with a best practices guide. 
 
-Furthermore all rules and regulations that apply to the school veterans services center apply online. Your school honor code applies to your Uvize site. Any user has the abillity to flag content that violates the standards of professionalism set by the school's honor code. Uvize will notify school administrators of flagged content to discuss course of action. School administrators also have the abillity to delete content that violates school honor code.
+Furthermore all rules and regulations that apply to the partner organization paying for the Uvize system apply online. This could be everything from the paying organizations terms of service to a school honor code. Any user has the abillity to flag content that violates the standards of professionalism set by Uvize or the partner organization. Uvize will notify administrators of flagged content to discuss the appropriate course of action.  In the meantime, while in review said content will be removed from view to prevent possibly offensive material from causing disturbances while the review process takes place. Administrators also have the abillity to delete content that they, in their sole disgression, deem inappropriate.
 
 
 ## Automatic Tracking
@@ -131,7 +131,7 @@ YOU EXPRESSLY UNDERSTAND AND AGREE THAT Uvize, ITS SUBSIDIARIES, AFFILIATES AND 
 ##  Contact Us
 
 Uvize Inc.
-1321 College Ave. Suite 57
-Boulder, Co 80304
-303.330.6930
+1401 17th Street, Suite 360
+Denver, CO  80202
+303.630.9454
 
