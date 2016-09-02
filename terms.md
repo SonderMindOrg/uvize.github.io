@@ -58,9 +58,9 @@ We will announce changes here at our site, and we also notify you of changes by 
 
 ## What Do I Have To Do To Use the Uvize Service?
 
-First, for school administrators, you need to sign a Uvize invoice and submit payment. Uvize will then create customized pages for your school. We will also set up hosting and administrator privileges for your university veterans staff. After advisors have been added, we send out invitations to your student and each student will complete a short registration and you're off! You now have an online veterans center.
+First, for administrators, you need to sign a Uvize invoice and submit payment. Uvize will then create customized pages for your organization. We will also set up hosting and administrator privileges for your users. After advisors have been added, we send out invitations to your users and each one will complete a short registration of information you decide on and you're off! You now have an online mentor based community.
 
-For school students, you can just sign up for free after your school has completed the above.
+For userss, you can just sign up for free after your organization has completed the above.
 
 
 ##  Can I Share My Account With Someone Else?
@@ -70,9 +70,9 @@ Uvize service accounts should not be shared.
 If you share your Account Information with anyone, that other person may be able to take control of the account, and we may not be able to determine who is the proper account holder. We will not have any liability to you (or anyone you share your Account Information with) as a result of your or their actions under those circumstances. 
 
 
-##  Once I Have a School Account, What Are My Rights In the Uvize Service?
+##  Once I Have an Account, What Are My Rights In the Uvize Service?
 
-Once your account is created and you accept these Terms, we grant you a limited license to use your Uvize school page subject to these Terms, for so long as you are not barred from receiving the service under the laws applicable to you, until you close your account voluntarily or until we close your account pursuant to these Terms. 
+Once your account is created and you accept these Terms, we grant you a limited license to use your Uvize organization page subject to these Terms, for so long as you are not barred from receiving the service under the laws applicable to you, until you close your account voluntarily or until we close your account pursuant to these Terms. 
 
 
 ##  Data Protection Laws Say My Data Is Mine - What Does That Mean?
@@ -98,7 +98,7 @@ This applies whether the Content is kept private, shared or transmitted using th
 
 ##  Will Uvize Look At My Content?
 
-Your privacy in your Content is a paramount concern for us, and we hope that we never need to examine anyone's content. If content is flagged (notification of unprofessional behavior) we will examine the content and remove if illegal or otherwise notify the school. 
+Your privacy in your Content is a paramount concern for us, and we hope that we never need to examine anyone's content. If content is flagged (notification of unprofessional behavior) we will examine the content and remove if illegal or otherwise notify the staff/administrator for your organization. 
 
 
 ##  I'm Guessing Uvize Has Some Rights Relating To The service?
